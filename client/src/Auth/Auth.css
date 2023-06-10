@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.loginbg{
+  background-image: url("./lg-bg.jpg");
+
+}
+.container .div {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid grey;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.282);
+}
+.container .div .controls {
+  padding: 10px;
+}
+.container .div .controls input {
+  width: 320px;
+  height: 30px;
+}
+input {
+  border-radius: 4px;
+  padding-left: 10px;
+}
+button {
+  padding: 10px;
+  width: 320px;
+}
+
+
+h1 {
+  margin-bottom: 20px;
+}
+.icon, .iconlogin {
+  height: 90px;
+  width: 90px;
+  background-image: url("./profile.png");
+  border-radius: 50%;
+  background-size: cover;
+  z-index: 1;
+  transform: translateY(-70px);
+}
+.iconlogin{
+  background-image: url("./padlock.png");
+  background-color: white;
+}
+.err{
+  padding: 0;
+  margin: 0;
+  color: red;
+  margin-bottom: -10px;
+}
+.big{
+  width: 320px;
+}
+.lgg{
+  height: 20px;
+  width: 20px;
+  background-image: url("./Logo-png.png");
+  background-position: center;
+  background-size: cover;
+}
